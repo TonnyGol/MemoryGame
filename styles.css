@@ -1,0 +1,68 @@
+body {
+    background-image: url('assets/images/memoryGameBg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.headline {
+    color: rgb(240, 253, 0);
+    text-shadow: 1px 1px 2px rgb(3, 3, 3);
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-gap: 16px;
+    grid-template-columns: repeat(auto-fill,
+            minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fill,
+            minmax(200px, 1fr));
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.front {
+    background-color: rgba(116, 108, 108, 0.496);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+.front-text {
+    color: rgb(253, 0, 0);
+    text-shadow: 1px 1px 2px rgb(3, 3, 3);
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.back {
+    background-image: url("assets/images/heartStone card.jpg");
+    background-size: cover;
+    transform: rotateY(0deg);
+}

@@ -1,10 +1,122 @@
 [
     {
-        "image": " ",
-        "name": " "
+        "value": "1",
+        "name": "one"
     },
     {
-        "image": " ",
-        "name": " "
+        "value": "2",
+        "name": "two"
+    },
+    {
+        "value": "3",
+        "name": "three"
+    },
+    {
+        "value": "4",
+        "name": "four"
+    },
+    {
+        "value": "5",
+        "name": "five"
+    },
+    {
+        "value": "6",
+        "name": "six"
+    },
+    {
+        "value": "7",
+        "name": "seven"
+    },
+    {
+        "value": "8",
+        "name": "eight"
+    },
+    {
+        "value": "9",
+        "name": "nine"
+    },
+    {
+        "value": "10",
+        "name": "ten"
+    },
+    {
+        "value": "11",
+        "name": "eleven"
+    },
+    {
+        "value": "12",
+        "name": "twelve"
+    },
+    {
+        "value": "13",
+        "name": "thirteen"
+    },
+    {
+        "value": "14",
+        "name": "fourteen"
+    },
+    {
+        "value": "15",
+        "name": "fifteen"
+    },
+    {
+        "value": "16",
+        "name": "sixteen"
+    },
+    {
+        "value": "17",
+        "name": "seventeen"
+    },
+    {
+        "value": "18",
+        "name": "eighteen"
+    },
+    {
+        "value": "19",
+        "name": "nineteen"
+    },
+    {
+        "value": "20",
+        "name": "twenty"
+    },
+    {
+        "value": "21",
+        "name": "twenty-one"
+    },
+    {
+        "value": "22",
+        "name": "twenty-two"
+    },
+    {
+        "value": "23",
+        "name": "twenty-three"
+    },
+    {
+        "value": "24",
+        "name": "twenty-four"
+    },
+    {
+        "value": "25",
+        "name": "twenty-five"
+    },
+    {
+        "value": "26",
+        "name": "twenty-six"
+    },
+    {
+        "value": "27",
+        "name": "twenty-seven"
+    },
+    {
+        "value": "28",
+        "name": "twenty-eight"
+    },
+    {
+        "value": "29",
+        "name": "twenty-nine"
+    },
+    {
+        "value": "30",
+        "name": "thirty"
     }
 ]
